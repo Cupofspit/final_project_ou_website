@@ -1,0 +1,17 @@
+{
+  "name": "oakland_university_website_remodeled",
+  "version": "1.0.0",
+  "description": "Final project for Interactive Web Systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashton Donaghy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
