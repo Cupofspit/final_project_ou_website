@@ -4,10 +4,13 @@
   "description": "Final project for Interactive Web Systems",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index"
   },
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cupofspit/final_project_ou_website.git"
   },
   "author": "Ashton Donaghy",
   "license": "ISC",

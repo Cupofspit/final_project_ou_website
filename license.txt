@@ -1,35 +1,6 @@
---------------------------------------------
-Template License 
---------------------------------------------
-
-Template Name : Varsity
-Author : MarkUps
-Author URL : http://www.markups.io/
-License URL : http://www.markups.io/license   
-Note : Before using we recommend check our template license page.
-
---------------------------------------------
-Resources License and Credits : 
---------------------------------------------
-
-Images:
-	Website URL : https://pixabay.com/
-	License     : Creative Commons CC0
-	License URL : https://creativecommons.org/publicdomain/zero/1.0/deed.en
-
-	Website URL : https://unsplash.com/
-	License     : Creative Commons CC0
-	License URL : https://creativecommons.org/publicdomain/zero/1.0/deed.en
-
-	Website URL : http://pngimg.com/
-	License     : Free
-	License URL : http://pngimg.com/about
-	
-	Website URL : https://www.flickr.com/photos/hackny/8673949525/in/photostream/
-	License     : Creative Commons
-	License URL : https://creativecommons.org/licenses/by-sa/2.0/
-
-	Note: All the images used in this item owned by the respective authors & you might need permission for using those on live sites from authors.
+---------------------
+Resources Credits : 
+---------------------
 
 Bootstrap :
 	Website URL : http://getbootstrap.com/
