@@ -5,7 +5,6 @@ const ejs = require('ejs');
 const {request} = require('express');
 
 
-
 //initialize express framework
 const app = express();
 
@@ -17,7 +16,12 @@ app.use(express.urlencoded({extended: true}));
 //initialize ejs middleware
 app.set('view engine', 'ejs');
 app.use('/public', express.static(__dirname + '/public'));
-
+app.use('/css', express.static(__dirname + 'public/css'));
+app.use('/js', express.static(__dirname + 'public/js'));
+app.use('/fonts', express.static(__dirname + 'public/fonts'));
+app.use('/img', express.static(__dirname + 'public/img'));
+app.use('/scss', express.static(__dirname + 'public/scss'));
+app.use('/views', express.static(__dirname + '/views'));
 
 //create “ENDPOINTS” aka route handlers
 app.get('/', (req,res) => {
