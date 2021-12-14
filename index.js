@@ -33,19 +33,19 @@ app.get('/views/index.ejs', (req,res) => {
 	res.render('index');
 });
 app.get('/views/contact.ejs', (req,res) => {
-	res.render('/contact.ejs');
+	res.render('../contact.ejs');
 });
 app.get('/views/gallery.ejs', (req,res) => {
-	res.render('/gallery.ejs');
+	res.render('../gallery.ejs');
 });
 app.get('/views/blog-single.ejs', (req,res) => {
-	res.render('/blog-single.ejs');
+	res.render('../blog-single.ejs');
 });
 app.get('/views/blog-archive.ejs', (req,res) => {
-	res.render('/blog-archive.ejs');
+	res.render('../blog-archive.ejs');
 });
 app.get('/views/404.ejs', (req,res) => {
-	res.render('/404.ejs');
+	res.render('../404.ejs');
 });
 
 const PORT = process.env.PORT || 3000;
